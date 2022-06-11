@@ -38,14 +38,14 @@ exports.help = (prefix, l) => {
 	return `
 ─────────────────
 ${HB} ${P4}Others Menu${P4}
-${SB} .CLOSE
+${SB} .--
 ${SB} .tes
 ${SB} .menu
 ${SB} .help
 ${SB} .owner
 ${SB} .donate
 ${SB} .creator
-${SB} .scriptbot
+${SB} .--
 
 ${HB} ${P4}Convert Menu${P4}
 ${SB} .nulis
