@@ -116,7 +116,7 @@ WCome = await getBuffer(`https://hardianto.xyz/api/tools/welcomer?nama=${encodeU
 
 GBye = await getBuffer(`https://hardianto.xyz/api/tools/leave?nama=${encodeURIComponent(nama)}&namaGb=${encodeURIComponent(metadata.subject)}&pepeGb=${encodeURIComponent(ppgroup)}&totalMem=${encodeURIComponent(memb)}&pepeUser=${encodeURIComponent(ppuser)}&bege=https://telegra.ph/file/d561876a112fea9777677.jpg&apikey=hardianto`)
                 if (anu.action == 'add') {
-                    neo.sendMessage(anu.id, { image: { url: `https://telegra.ph/file/d561876a112fea9777677.jpg` }, contextInfo: { mentionedJid: [num] }, caption: `Hi @${num.split("@")[0]}!!` })
+                    neo.sendMessage(anu.id, { image: { url: `https://telegra.ph/file/d561876a112fea9777677.jpg` }, contextInfo: { mentionedJid: [num] }, caption: `Hi @${num.split("@")[0]}*selamat datang di grup ini semoga betah ya;v` })
                 } else if (anu.action == 'remove') {
                     neo.sendMessage(anu.id, { image: { url: `https://telegra.ph/file/d561876a112fea9777677.jpg` }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
                 }
