@@ -399,7 +399,7 @@ _Data Berhasil Di Dapatkan !!_
 `
 
 const fitur =`
- ${GK} ${K1}  ${P4}SELFBOT-MD${P4}  ${K2}
+ ${GK} ${K1}  ${P4}ZhaaLL-BOT${P4}  ${K2}
 ${P4}Hai ${pushname} ${ucapanWaktu}${P4} 👋
 ${P4}Saya ${global.namebot}, Bot Ini Adalah Beta Multi Device Whatsapp.${P4}
 ${P4}Jika Menemukan Fitur Error Atau Bug, Harap Lapor Ke Owner Bot !!${P4}
